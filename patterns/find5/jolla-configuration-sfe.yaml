@@ -8,6 +8,7 @@ Requires:
 - pattern:jolla-ui-wayland
 
 - jolla-developer-mode
+- jolla-devicelock-plugin-encsfa
 - sailfishsilica-qt5-demos
 
 - busybox-static

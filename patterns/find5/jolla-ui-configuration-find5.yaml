@@ -1,0 +1,6 @@
+Description: Pattern with UI related packages for find5 configurations
+Name: jolla-ui-configuration-find5
+Requires:
+- jolla-ambient-z2.0
+- ambient-icons-closed-z2.0
+Summary: Jolla UI Configuration find5 

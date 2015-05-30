@@ -6,6 +6,7 @@ Name: jolla-hw-adaptation-find5
 Requires:
 - pattern:jolla-hw-adaptation-hybris
 - pattern:jolla-hw-adaptation-hybris-droid-vibrator
+- pattern:jolla-ui-configuration-find5
 
 - droid-hal-find5
 - droid-hal-find5-sailfish-config
@@ -49,7 +50,7 @@ Requires:
 - usb-moded-mass-storage-android-config
 # working but careful with roaming!
 - usb-moded-connection-sharing-android-config
-# android diag mode only usable for certain android tools
+ # android diag mode only usable for certain android tools
 - usb-moded-diag-mode-android
 #
 ## jolla-rnd-device will enable usb-moded even when UI is not yet
@@ -57,4 +58,3 @@ Requires:
 - jolla-rnd-device
 
 Summary: Jolla HW Adaptation find5
-
