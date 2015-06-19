@@ -12,6 +12,8 @@ seq 1 $MAXTRIES | while read i ; do
         exit 0
     fi
     sleep 1
+    if [ $i == $MAXTRIES ] ; then
+        # must have gotten through all our retries, fail
+        exit 1
+    fi
 done
-# must have gotten through all our retries, fail
-exit 1
